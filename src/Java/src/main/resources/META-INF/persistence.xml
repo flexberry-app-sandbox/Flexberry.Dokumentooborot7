@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>Dokumentooborot7.model.TCHPrava</class>
+        <class>Dokumentooborot7.model.VxodVSistemu</class>
+        <class>Dokumentooborot7.model.Sotrudniki</class>
+        <class>Dokumentooborot7.model.FormaDokumenta</class>
+        <class>Dokumentooborot7.model.DokumentSox</class>
+        <class>Dokumentooborot7.model.TCHSozdDok</class>
+        <class>Dokumentooborot7.model.Dolzhnost</class>
+        <class>Dokumentooborot7.model.UtverzhdenieDok</class>
+        <class>Dokumentooborot7.model.AvPolzovateli</class>
+        <class>Dokumentooborot7.model.TCHUtverzhDok</class>
+        <class>Dokumentooborot7.model.TCHPolzovatel</class>
+        <class>Dokumentooborot7.model.FlexberryAdvLimit</class>
+        <class>Dokumentooborot7.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>Dokumentooborot7.model.NewPlatformFlexberryServicesLock</class>
+        <class>Dokumentooborot7.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

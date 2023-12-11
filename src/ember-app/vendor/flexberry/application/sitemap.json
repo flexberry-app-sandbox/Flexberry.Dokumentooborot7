@@ -1,0 +1,64 @@
+﻿{
+  "applicationCaption": "Dokumentooborot7",
+  "applicationTitle": "Dokumentooborot7",
+  "items": [
+    {
+      "link": null,
+      "menuName": "dokumentooborot7",
+      "caption": "Dokumentooborot7",
+      "title": "Dokumentooborot7",
+      "children": [
+        {
+          "link": "i-i-s-dokumentooborot7-вход-в-систему-l",
+          "menuName": null,
+          "caption": "Вход в систему",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-форма-документа-l",
+          "menuName": null,
+          "caption": "Форма документа",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-документ-сох-l",
+          "menuName": null,
+          "caption": "Документ сох",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-утверждение-док-l",
+          "menuName": null,
+          "caption": "Утверждение док",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dokumentooborot7-ав-пользователи-l",
+          "menuName": null,
+          "caption": "Ав пользователи",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

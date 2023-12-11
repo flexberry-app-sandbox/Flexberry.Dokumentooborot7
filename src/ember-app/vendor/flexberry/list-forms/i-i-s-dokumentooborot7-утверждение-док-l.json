@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dokumentooborot7-утверждение-док-e",
+  "editForm": "i-i-s-dokumentooborot7-утверждение-док-e",
+  "external": false,
+  "caption": "Утверждение док",
+  "name": "IISDokumentooborot7УтверждениеДокL",
+  "className": "УтверждениеДокL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dokumentooborot7-утверждение-док",
+      "modelProjection": "УтверждениеДокL"
+    }
+  ]
+}

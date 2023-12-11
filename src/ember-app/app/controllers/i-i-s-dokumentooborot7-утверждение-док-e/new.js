@@ -1,0 +1,4 @@
+import IISDokumentooborot7УтверждениеДокEController from '../i-i-s-dokumentooborot7-утверждение-док-e';
+
+var IISDokumentooborot7УтверждениеДокENewController = IISDokumentooborot7УтверждениеДокEController;
+export default IISDokumentooborot7УтверждениеДокENewController;

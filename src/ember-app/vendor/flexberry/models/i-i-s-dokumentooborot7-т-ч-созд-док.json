@@ -1,0 +1,103 @@
+﻿{
+  "name": "IISDokumentooborot7ТЧСоздДок",
+  "modelName": "i-i-s-dokumentooborot7-т-ч-созд-док",
+  "className": "ТЧСоздДок",
+  "nameSpace": "IIS.Dokumentooborot7",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "формаДокумента",
+      "relatedTo": "i-i-s-dokumentooborot7-форма-документа",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "документСох",
+      "relatedTo": "i-i-s-dokumentooborot7-документ-сох",
+      "inverse": "тЧСоздДок"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧСоздДокE",
+      "modelName": "i-i-s-dokumentooborot7-т-ч-созд-док",
+      "attrs": [],
+      "belongsTo": [
+        {
+          "lookupValue": "Наименование",
+          "lookupValueField": "наименование",
+          "relationName": "ФормаДокумента",
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "ФормаДокумента.АвПользователи",
+              "belongsTo": [
+                {
+                  "lookupValue": null,
+                  "lookupValueField": null,
+                  "relationName": "ФормаДокумента.АвПользователи.Сотрудники",
+                  "belongsTo": [],
+                  "hidden": false,
+                  "attrs": [
+                    {
+                      "name": "фИОСотрудника",
+                      "caption": "",
+                      "hidden": false,
+                      "index": 3
+                    }
+                  ],
+                  "index": -1,
+                  "type": null,
+                  "caption": "",
+                  "name": "сотрудники",
+                  "relatedTo": "i-i-s-dokumentooborot7-сотрудники",
+                  "inverse": null
+                }
+              ],
+              "hidden": false,
+              "attrs": [],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "авПользователи",
+              "relatedTo": "i-i-s-dokumentooborot7-ав-пользователи",
+              "inverse": null
+            }
+          ],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "дата",
+              "caption": "",
+              "hidden": false,
+              "index": 1
+            },
+            {
+              "name": "наименование",
+              "caption": "Наименование",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Форма документа",
+          "name": "формаДокумента",
+          "relatedTo": "i-i-s-dokumentooborot7-форма-документа",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

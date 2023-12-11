@@ -1,0 +1,1 @@
+docker-compose -p dokumentooborot7-java up -d

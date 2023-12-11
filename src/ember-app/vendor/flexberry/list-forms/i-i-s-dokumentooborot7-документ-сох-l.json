@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dokumentooborot7-документ-сох-e",
+  "editForm": "i-i-s-dokumentooborot7-документ-сох-e",
+  "external": false,
+  "caption": "Документ сох",
+  "name": "IISDokumentooborot7ДокументСохL",
+  "className": "ДокументСохL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dokumentooborot7-документ-сох",
+      "modelProjection": "ДокументСохL"
+    }
+  ]
+}
