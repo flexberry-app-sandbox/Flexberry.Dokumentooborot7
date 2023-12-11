@@ -33,7 +33,29 @@
           "lookupValue": "Логин",
           "lookupValueField": "логин",
           "relationName": "АвПользователи",
-          "belongsTo": [],
+          "belongsTo": [
+            {
+              "lookupValue": null,
+              "lookupValueField": null,
+              "relationName": "АвПользователи.Сотрудники",
+              "belongsTo": [],
+              "hidden": false,
+              "attrs": [
+                {
+                  "name": "фИОСотрудника",
+                  "caption": "",
+                  "hidden": false,
+                  "index": 3
+                }
+              ],
+              "index": -1,
+              "type": null,
+              "caption": "",
+              "name": "сотрудники",
+              "relatedTo": "i-i-s-dokumentooborot7-сотрудники",
+              "inverse": null
+            }
+          ],
           "hidden": false,
           "attrs": [
             {

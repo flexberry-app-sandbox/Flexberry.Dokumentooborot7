@@ -32,7 +32,8 @@ namespace IIS.Dokumentooborot7
     [View("ТЧПользовательE", new string[] {
             "АвПользователи as \'Ав пользователи\'",
             "АвПользователи.Логин as \'Логин\'",
-            "АвПользователи.Пароль"}, Hidden=new string[] {
+            "АвПользователи.Пароль",
+            "АвПользователи.Сотрудники.ФИОСотрудника"}, Hidden=new string[] {
             "АвПользователи.Логин"})]
     [MasterViewDefineAttribute("ТЧПользовательE", "АвПользователи", ICSSoft.STORMNET.LookupTypeEnum.Standard, "", "Логин")]
     public class ТЧПользователь : ICSSoft.STORMNET.DataObject

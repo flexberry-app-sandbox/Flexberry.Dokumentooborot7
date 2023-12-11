@@ -30,7 +30,10 @@ export let defineProjections = function (modelClass) {
   modelClass.defineProjection('ТЧПользовательE', 'i-i-s-dokumentooborot7-т-ч-пользователь', {
     авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', 'Ав пользователи', {
       логин: attr('Логин', { index: 1, hidden: true }),
-      пароль: attr('', { index: 2 })
+      пароль: attr('', { index: 2 }),
+      сотрудники: belongsTo('i-i-s-dokumentooborot7-сотрудники', '', {
+        фИОСотрудника: attr('', { index: 3 })
+      }, { index: -1, hidden: true })
     }, { index: 0, displayMemberPath: 'логин' })
   });
 };
