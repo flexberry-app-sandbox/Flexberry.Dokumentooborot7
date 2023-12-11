@@ -63,9 +63,9 @@ export let defineProjections = function (modelClass) {
     содержание: attr('Содержание', { index: 1 }),
     дата: attr('Дата', { index: 2 }),
     отделы: attr('Отделы', { index: 3 }),
-    авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', '', {
+    авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', 'ФИОСотрудника', {
       сотрудники: belongsTo('i-i-s-dokumentooborot7-сотрудники', '', {
-        фИОСотрудника: attr('', { index: 4 })
+        фИОСотрудника: attr('ФИОСотрудника', { index: 4 })
       }, { index: -1, hidden: true })
     }, { index: -1, hidden: true })
   });

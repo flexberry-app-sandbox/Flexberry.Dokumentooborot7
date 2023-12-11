@@ -152,7 +152,7 @@
               "attrs": [
                 {
                   "name": "фИОСотрудника",
-                  "caption": "",
+                  "caption": "ФИОСотрудника",
                   "hidden": false,
                   "index": 4
                 }
@@ -169,7 +169,7 @@
           "attrs": [],
           "index": -1,
           "type": "default",
-          "caption": "",
+          "caption": "ФИОСотрудника",
           "name": "авПользователи",
           "relatedTo": "i-i-s-dokumentooborot7-ав-пользователи",
           "inverse": null
