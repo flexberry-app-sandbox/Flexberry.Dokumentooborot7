@@ -66,24 +66,6 @@
     {{flexberry-validationmessage error=(v-get validationModel "отделы" "message")}}
   </div>
   <div class="field">
-    <label>{{t "forms.i-i-s-dokumentooborot7-форма-документа-e.авПользователи-caption"}}</label>
-    {{flexberry-lookup
-      choose="showLookupDialog"
-      remove="removeLookupValue"
-      value=model.авПользователи
-      displayAttributeName="фИОСотрудника"
-      autocomplete=true
-      relationName="авПользователи"
-      projection="АвПользователиL"
-      title=(t "forms.i-i-s-dokumentooborot7-форма-документа-e.авПользователи-caption")
-      readonly=readonly
-      componentName="авПользователиLookup"
-      class=(if (v-get validationModel "авПользователи" "isInvalid") "error")
-      data-test-i-i-s-dokumentooborot7-форма-документа-e-авПользователи=true
-    }}
-    {{flexberry-validationmessage error=(v-get validationModel "авПользователи" "message")}}
-  </div>
-  <div class="field">
     {{flexberry-field
       readonly=true
       value=model.авПользователи.сотрудники.фИОСотрудника
