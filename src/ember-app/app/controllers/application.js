@@ -34,37 +34,37 @@ export default Controller.extend({
             link: 'i-i-s-dokumentooborot7-сотрудники-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-сотрудники-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-сотрудники-l.title'),
-            icon: 'phone',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-dokumentooborot7-форма-документа-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-форма-документа-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-форма-документа-l.title'),
-            icon: 'folder',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-dokumentooborot7-документ-сох-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-документ-сох-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-документ-сох-l.title'),
-            icon: 'phone',
+            icon: 'suitcase',
             children: null
           }, {
             link: 'i-i-s-dokumentooborot7-должность-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-должность-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-должность-l.title'),
-            icon: 'calendar',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-dokumentooborot7-утверждение-док-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-утверждение-док-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-утверждение-док-l.title'),
-            icon: 'address card',
+            icon: 'tasks',
             children: null
           }, {
             link: 'i-i-s-dokumentooborot7-ав-пользователи-l',
             caption: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-ав-пользователи-l.caption'),
             title: i18n.t('forms.application.sitemap.dokumentooborot7.i-i-s-dokumentooborot7-ав-пользователи-l.title'),
-            icon: 'tags',
+            icon: 'building',
             children: null
           }]
         }

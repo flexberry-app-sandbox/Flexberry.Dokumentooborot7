@@ -85,8 +85,8 @@
       ],
       "belongsTo": [
         {
-          "lookupValue": "Логин",
-          "lookupValueField": "логин",
+          "lookupValue": "ФИОСотрудника",
+          "lookupValueField": "фИОСотрудника",
           "relationName": "АвПользователи",
           "belongsTo": [
             {
@@ -98,7 +98,7 @@
               "attrs": [
                 {
                   "name": "фИОСотрудника",
-                  "caption": "",
+                  "caption": "ФИО СОтрудника",
                   "hidden": false,
                   "index": 5
                 }
@@ -167,7 +167,7 @@
               "attrs": [
                 {
                   "name": "фИОСотрудника",
-                  "caption": "",
+                  "caption": "ФИО Сотрудника",
                   "hidden": false,
                   "index": 4
                 }
@@ -184,7 +184,7 @@
           "attrs": [],
           "index": -1,
           "type": "default",
-          "caption": "",
+          "caption": "ФИО Сотрудника",
           "name": "авПользователи",
           "relatedTo": "i-i-s-dokumentooborot7-ав-пользователи",
           "inverse": null

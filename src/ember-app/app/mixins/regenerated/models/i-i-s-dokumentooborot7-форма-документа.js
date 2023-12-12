@@ -55,9 +55,9 @@ export let defineProjections = function (modelClass) {
     отделы: attr('Отделы', { index: 3 }),
     авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', 'Ав пользователи', {
       сотрудники: belongsTo('i-i-s-dokumentooborot7-сотрудники', '', {
-        фИОСотрудника: attr('', { index: 5 })
+        фИОСотрудника: attr('ФИО СОтрудника', { index: 5 })
       }, { index: -1, hidden: true })
-    }, { index: 4, displayMemberPath: 'логин' })
+    }, { index: 4, displayMemberPath: 'фИОСотрудника' })
   });
 
   modelClass.defineProjection('ФормаДокументаL', 'i-i-s-dokumentooborot7-форма-документа', {
@@ -65,9 +65,9 @@ export let defineProjections = function (modelClass) {
     содержание: attr('Содержание', { index: 1 }),
     дата: attr('Дата', { index: 2 }),
     отделы: attr('Отделы', { index: 3 }),
-    авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', '', {
+    авПользователи: belongsTo('i-i-s-dokumentooborot7-ав-пользователи', 'ФИО Сотрудника', {
       сотрудники: belongsTo('i-i-s-dokumentooborot7-сотрудники', '', {
-        фИОСотрудника: attr('', { index: 4 })
+        фИОСотрудника: attr('ФИО Сотрудника', { index: 4 })
       }, { index: -1, hidden: true })
     }, { index: -1, hidden: true })
   });
